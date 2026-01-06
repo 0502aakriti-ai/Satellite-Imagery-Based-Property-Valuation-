@@ -23,7 +23,7 @@ In this project:
 ## 📂 Repository Structure
 ├── multimodal_project.ipynb # Downloading satellite images using API, Data Loading, cleaning, EDA, Feature engineering, Model training, multimodal fusion, and evaluation
 
-├── final_predictions.csv # Final predictions on the test dataset
+├── 24115001_final.csv # Final predictions on the test dataset
 
 ├── images/ # Stored satellite images (optional / sample only)
 
