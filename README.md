@@ -83,6 +83,27 @@ The tabular-only model serves as a strong baseline, while the multimodal model d
    ```bash
    git clone <repository-url>
    cd <repository-name>
+2. Install Dependencies
+   ```bash
+   pip install -r requirements.txt
+3. Final predictions will be saved as:
+   ```bash
+   final_predictions.csv
 
+---
+## 🔐 API Key Note
+API keys required for satellite image fetching are not included in this repository for security reasons.
+Users should generate their own API keys and add them locally if they wish to fetch images programmatically.
+
+---
+## 📝 Conclusion
+This project demonstrates an end-to-end multimodal machine learning pipeline for real estate price prediction. While the multimodal model introduces valuable environmental context, the results highlight the challenges of high-dimensional visual features and limited data availability. The framework is extensible and can be improved with larger datasets and advanced fusion techniques.
+
+---
+
+## 📧 Author
+Aakriti
+
+Indian Institute of Technology Roorkee (IIT Roorkee)
 
 
